@@ -38,9 +38,7 @@ class App extends Component {
     this.setState({
       items: filteredItems
     })
-  }
-
-  
+  }  
 
   render() {
     return (
@@ -56,6 +54,4 @@ class App extends Component {
     )
   }
 }
-
-
 export default App;
